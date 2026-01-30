@@ -1,0 +1,45 @@
+{
+  "name": "master-agent",
+  "version": "0.1.0",
+  "description": "Master agent that orchestrates multiple sub-agents with x402 payment integration",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "serve": "pnpm build && node dist/index.js",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "format": "prettier --check src",
+    "format:fix": "prettier --write src",
+    "inspect": "MCP_PROXY_AUTH_TOKEN=master-agent-inspect npx @modelcontextprotocol/inspector"
+  },
+  "dependencies": {
+    "@ampersend_ai/ampersend-sdk": "^0.0.4",
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@coinbase/x402": "^2.1.0",
+    "@modelcontextprotocol/sdk": "^1.25.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "fastmcp": "github:edgeandnode/fastmcp#598d18f",
+    "viem": "^2.44.4",
+    "x402": "^0.6.6",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.10.0",
+    "eslint": "^9.16.0",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@9.15.0"
+}

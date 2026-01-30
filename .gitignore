@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Test coverage
+coverage/
+
+# Data files
+data/
+*.db
+*.sqlite
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# macOS metadata
+._*
+.AppleDouble
+.LSOverride
+node_modules
