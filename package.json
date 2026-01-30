@@ -1,5 +1,5 @@
 {
-  "name": "master-agent",
+  "name": "walter",
   "version": "0.1.0",
   "description": "Master agent that orchestrates multiple sub-agents with x402 payment integration",
   "type": "module",

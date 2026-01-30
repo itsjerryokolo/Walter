@@ -12,7 +12,7 @@ import { createMcpServer, startMcpServer } from "./server/mcp-server.js"
 
 async function main() {
   console.log("=".repeat(60))
-  console.log("  Master Agent - Multi-Agent Orchestration System")
+  console.log("  Walter - Multi-Agent Orchestration System")
   console.log("=".repeat(60))
   console.log()
 
@@ -83,7 +83,7 @@ async function main() {
   // Print status
   console.log()
   console.log("=".repeat(60))
-  console.log("  Master Agent Ready!")
+  console.log("  Walter Ready!")
   console.log("=".repeat(60))
   console.log()
   console.log("Connected agents:")

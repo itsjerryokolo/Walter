@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**Master Agent** is a multi-agent orchestration system that enables natural language interaction with multiple sub-agents through the Model Context Protocol (MCP). It uses Claude for intent extraction and response synthesis, and integrates with the x402 payment protocol for handling paid sub-agent interactions.
+**Walter** is a multi-agent orchestration system that enables natural language interaction with multiple sub-agents through the Model Context Protocol (MCP). It uses Claude for intent extraction and response synthesis, and integrates with the x402 payment protocol for handling paid sub-agent interactions.
 
 ### Key Capabilities
 - Natural language chat interface that routes to appropriate sub-agents

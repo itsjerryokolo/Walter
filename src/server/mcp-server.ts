@@ -22,7 +22,7 @@ export interface McpServerConfig {
  */
 export function createMcpServer(config: McpServerConfig): FastMCP {
   const mcp = new FastMCP({
-    name: "master-agent",
+    name: "walter",
     version: "0.1.0",
   })
 
